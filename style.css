@@ -1,0 +1,105 @@
+body{
+    background-color: rgba(255, 255, 255, 0.692);
+    font-family: sans-serif;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.fb_logo{
+    padding-top: 30%;
+}
+.fb_logo img{
+    width: 300px;
+    height: 100px;
+
+}
+
+.fb_logo h2{
+    margin: 0px;
+    margin-left: 40px;  
+}
+.fb_login_form{
+    width: 90%;
+    padding:100px;
+}
+.fb_login_form form{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 0px rgb(75, 75, 75);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.username_input{
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0px;
+}
+.username_input:focus{
+    border: none;
+    outline: 1px solid rgb(22, 110, 241);
+    box-shadow: 0px 0px 5px rgb(22, 110, 241);
+    border-radius: 5px;
+}
+.password_input{
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0px;
+
+}
+.password_input:focus{
+    border: none;
+    outline: 1px solid rgb(22, 110, 241);
+    box-shadow: 0px 0px 5px rgb(22, 110, 241);
+    border-radius: 5px;
+}
+.form_input{
+   margin: 10px;
+   padding: 10px;
+   width: 90%;
+   height: 40px;
+}
+.submit_button{
+    background-color: rgb(22, 110, 241);
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+.submit_button:hover{
+    background-color: rgb(22, 119, 216);
+}
+.fb_login_form p a{
+    text-decoration: none;
+    color: rgb(22, 110, 241);
+    font-weight: bold;
+}
+.fb_login_form{
+    text-align: center;
+    margin: 100px;
+    margin-left: 50px;
+}
+.create_account{
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(16, 182, 16);
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+.create_account:hover{
+    background-color: rgb(13, 164, 13);
+}
+.create_page_para{
+    margin-top: 25px;
+}
+.create_page_para a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
